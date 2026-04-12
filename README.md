@@ -1,163 +1,115 @@
-<br clear="both">
-
-<h2 align="center">👋 Hello World, I'm Rajarshi!</h2>
-
-###
-
-<h2 align="left">👨‍💻 About Me</h2>
-
-###
-
-<h4 align="left">Hi! I’m Rajarshi, a Computer Science Engineering student at GITAM University. I’m passionate about technology and enjoy exploring different areas in software development, especially full-stack web development and Android customization.<br><br>I love building projects that solve real-world problems and experimenting with new technologies. Currently, I’m working on web applications, Android widgets, and UI/UX-focused projects.<br><br>Apart from coding, I have a strong interest in video editing, content creation, and design. I enjoy working with editing tools like DaVinci Resolve to create aesthetic and engaging visuals. I'm also into photography, exploring custom ROMs for Android devices, and learning new creative and technical skills.<br><br>I’m always eager to collaborate on exciting projects, contribute to open source, and keep improving my skills as a developer and creator.</h4>
-
-###
-
-<h2 align="left">🎯 Current Focus</h2>
-
-###
-
-<h4 align="left">- Full Stack Development<br>- Real-Time Web Applications<br>- UI/UX and Frontend Animations<br>- Android Widget Development<br>- AI-powered Projects</h4>
-
-###
-
-<h2 align="left">🎨 Personal Interests:</h2>
-
-###
-
-<h3 align="left">🎥 Video Editing & Cinematics<br><br>🖌️ Design and Visual Storytelling<br><br>📸 Photography<br><br>📱 Exploring Custom ROMs & Android Modding<br><br>🎶 Listening to Music<br><br>🌱 Learning New Tech & Creative Skills</h3>
-
-###
-
-<h2 align="left">💻 Tech Stack</h2>
-
-###
-
-<h4 align="center">Web Development</h4>
+<h2 align="left">Hi, I'm Rajarshi Ghosh — building intelligent systems, scalable applications, and digging into core computer science.</h2>
 
 ###
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" height="60" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" height="60" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="60" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="60" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" height="60" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="60" alt="express logo"  />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=itsrajarshi&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=itsrajarshi&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
 </div>
 
 ###
 
-<h4 align="center">Programming Languages</h4>
+<img align="right" height="150" src="https://raw.githubusercontent.com/itsrajarshi/itsrajarshi/main/assets/aozw09.gif" />
 
 ###
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" height="60" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="60" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" height="60" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" height="60" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="60" alt="javascript logo"  />
-</div>
+**About Me**
+
+B.Tech Computer Science & Engineering student at GITAM University, Visakhapatnam (2027).
+Currently focused on AI/ML systems, full-stack development, and scalable infrastructure design.
+
+- Working on AI-driven projects tackling real-world engineering problems
+- Exploring Deep Learning, NLP, and distributed system design
+- Open to collaborating on Machine Learning, AI research, and open-source initiatives
+- Ask me about Python, DSA, AI/ML concepts, and Git workflows
+- Google Cloud Arcade Legend — certified across GCP, Kubernetes, BigQuery, and ML
 
 ###
 
-<h4 align="center">Tools & Platforms</h4>
+**Tech Stack**
+
+<sub>Languages</sub><br>
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=plastic&logo=gnu-bash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=plastic&logo=powershell&logoColor=white)
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=plastic&logo=windows-terminal&logoColor=white)
+
+<sub>Frontend</sub><br>
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB)
+![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=plastic&logo=angularjs&logoColor=white)
+
+<sub>Backend & Servers</sub><br>
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white)
+![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white)
+![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=plastic&logo=apache-tomcat&logoColor=black)
+
+<sub>Databases</sub><br>
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=plastic&logo=sqlite&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-a08021?style=plastic&logo=firebase&logoColor=ffcd34)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=plastic&logo=supabase&logoColor=white)
+
+<sub>ML / Data Science</sub><br>
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black)
+![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=plastic&logo=plotly&logoColor=white)
+
+<sub>Cloud & DevOps</sub><br>
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white)
+![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=plastic&logo=gitlab&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=plastic&logo=gitlab&logoColor=white)
+![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=plastic&logo=selenium&logoColor=white)
+
+<sub>Design & Tools</sub><br>
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white)
+![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=plastic&logo=adobe&logoColor=white)
+![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=plastic&logo=Adobe%20Lightroom&logoColor=white)
 
 ###
 
-<div align="center">
-  <img src="https://cdn.simpleicons.org/git/F05032" height="60" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/github/181717" height="60" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/rabbitmq/FF6600" height="60" alt="rabbitmq logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="60" alt="androidstudio logo"  />
-</div>
+**Connect**
 
-###
-
-<h4 align="center">Operating System</h4>
-
-###
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="60" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="60" alt="windows8 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" height="60" alt="android logo"  />
-</div>
-
-###
-
-<h4 align="center">Database & Backend</h4>
-
-###
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="60" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="60" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/supabase/3ECF8E" height="60" alt="supabase logo"  />
-</div>
-
-###
-
-<h2 align="left">🚀 Current Projects</h2>
-
-###
-
-<h3 align="left">🔨 Cab Booking Portal for Corporate Offices<br>Tech Stack: Next.js, Node.js, PostgreSQL, RabbitMQ, Google Maps API</h3>
-
-###
-
-<h2 align="left">📈 GitHub Stats</h2>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itsrajarshi&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-</div>
-
-###
-
-<h2 align="left">📬 Connect with Me</h2>
-
-###
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/itsrajarshi/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="https://discord.com/users/rajxenvy" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  </a>
-  <a href="https://www.youtube.com/@Rajority" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo"  />
-  </a>
+<div align="left">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin" />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail" />
+  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram" />
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord" />
 </div>
 
 ###
 
 <br clear="both">
 
-<p align="center">Thanks for visiting my profile! 🚀</p>
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=itsrajarshi&theme=dracula&hide_border=false" alt="GitHub Streak" />
+</div>
+
+###
+
+**Recently Played**
+
+<div align="center">
+  <a href="https://open.spotify.com/user/ghdi65yf0m1q6d6t18qta73j5">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=ghdi65yf0m1q6d6t18qta73j5&count=2&unique=true" alt="Spotify recently played" />
+  </a>
+</div>
 
 ###
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=itsrajarshi.itsrajarshi&left_color=indigo&right_color=violet"  />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" alt="Dev Quote" />
 </div>
 
-###
+
