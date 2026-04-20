@@ -98,18 +98,9 @@ Currently focused on AI/ML systems, full-stack development, and scalable infrast
 
 ###
 
-**Recently Played**
-
-<div align="center">
-  <a href="https://open.spotify.com/user/ghdi65yf0m1q6d6t18qta73j5">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=ghdi65yf0m1q6d6t18qta73j5&count=2&unique=true" alt="Spotify recently played" />
-  </a>
-</div>
-
-###
-
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" alt="Dev Quote" />
 </div>
 
+###
 
