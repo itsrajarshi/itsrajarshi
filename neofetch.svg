@@ -1,90 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="975" height="871.0" viewBox="0 0 975 871.0">
+<svg xmlns="http://www.w3.org/2000/svg" width="975" height="853" viewBox="0 0 975 853">
 <style>
 text{font-family:ConsolasFallback,Consolas,"DejaVu Sans Mono","Courier New",monospace;font-size:15px;fill:#c9d1d9;white-space:pre}
 .art{font-size:5.6px;fill:#c9d1d9}
 .k,.u{fill:#ffa657;font-weight:bold} .v{fill:#a5d6ff} .add{fill:#3fb950} .del{fill:#f85149} .d{fill:#484f58}
 .cat{font-size:12px;fill:#8b949e} .pill{font-size:12px;font-weight:bold}
 </style>
-<rect width="975" height="871.0" rx="15" fill="#161b22"/>
-<text class="art" xml:space="preserve" x="25" y="37.1" textLength="400.0" lengthAdjust="spacing">                                                                                                                        </text>
-<text class="art" xml:space="preserve" x="25" y="44.2" textLength="400.0" lengthAdjust="spacing">                                                                                                                        </text>
-<text class="art" xml:space="preserve" x="25" y="51.3" textLength="400.0" lengthAdjust="spacing">                                                                                                                        </text>
-<text class="art" xml:space="preserve" x="25" y="58.4" textLength="400.0" lengthAdjust="spacing">                                                                                                                        </text>
-<text class="art" xml:space="preserve" x="25" y="65.5" textLength="400.0" lengthAdjust="spacing">                                                                                                                        </text>
-<text class="art" xml:space="preserve" x="25" y="72.6" textLength="400.0" lengthAdjust="spacing">                                                    ++--+++++=++                                                        </text>
-<text class="art" xml:space="preserve" x="25" y="79.7" textLength="400.0" lengthAdjust="spacing">                                          +++=-=++*=+**++-===+---++=++                                                  </text>
-<text class="art" xml:space="preserve" x="25" y="86.8" textLength="400.0" lengthAdjust="spacing">                                     +==+==*:+-=====+*+==+=++---=:++--====                                              </text>
-<text class="art" xml:space="preserve" x="25" y="93.9" textLength="400.0" lengthAdjust="spacing">                                  ++**=++-=---:::--===-:-:::---==--==-=--==                                             </text>
-<text class="art" xml:space="preserve" x="25" y="101.0" textLength="400.0" lengthAdjust="spacing">                               +===+*++=-*=:*=---::-===-:::::::--==+++--===-                                            </text>
-<text class="art" xml:space="preserve" x="25" y="108.1" textLength="400.0" lengthAdjust="spacing">                              +===*+-==--#+-=+*=-.:--===--:::::::--=+=:-::---==+                                        </text>
-<text class="art" xml:space="preserve" x="25" y="115.2" textLength="400.0" lengthAdjust="spacing">                            =====-:-----==--:---::.-::----:::----::---==--:::--==                                       </text>
-<text class="art" xml:space="preserve" x="25" y="122.3" textLength="400.0" lengthAdjust="spacing">                          ---=-::-::==+=-=:::::--:-----:::---=-=--===---+---::::--:-                                    </text>
-<text class="art" xml:space="preserve" x="25" y="129.4" textLength="400.0" lengthAdjust="spacing">                         =-=----:---==:=+----::----====--:::--==----==-----=-::::----                                   </text>
-<text class="art" xml:space="preserve" x="25" y="136.5" textLength="400.0" lengthAdjust="spacing">                       ==----::::-:-=:-=---::::::::---=----:-=++=+++===-::-:-==:::::-::                                 </text>
-<text class="art" xml:space="preserve" x="25" y="143.6" textLength="400.0" lengthAdjust="spacing">                      --==-::::::---=-*---:-+==----:=-----::--:----=+=====--=---:-:-:--.                                </text>
-<text class="art" xml:space="preserve" x="25" y="150.7" textLength="400.0" lengthAdjust="spacing">                      ----=-:::::-=--+==::=+-==+=-:=----::::::---===--=-==++--::--:-----:                               </text>
-<text class="art" xml:space="preserve" x="25" y="157.8" textLength="400.0" lengthAdjust="spacing">                    ----::=-::::.-=-=+--:=--=+====-==:===:::-=---=--=--=--===------:::::-:                              </text>
-<text class="art" xml:space="preserve" x="25" y="164.9" textLength="400.0" lengthAdjust="spacing">                  -=---:--+=-::::-+=*+-::--:====++=----==---==-=====+++=-=--+----:::::::::.                             </text>
-<text class="art" xml:space="preserve" x="25" y="172.0" textLength="400.0" lengthAdjust="spacing">                  ===----===-::::=====--==-:--=++*====----:=---========----==-:---:::::::.:                             </text>
-<text class="art" xml:space="preserve" x="25" y="179.1" textLength="400.0" lengthAdjust="spacing">                 =-=--=---=--:-:-::=++-#*+-:---.-==++====+---=------===---==-=:::--::....::                             </text>
-<text class="art" xml:space="preserve" x="25" y="186.2" textLength="400.0" lengthAdjust="spacing">                :=--===----==-:::::-#+==+::.:-==-++=---=++=:+++=++====--::-=+---:::::::.::                              </text>
-<text class="art" xml:space="preserve" x="25" y="193.3" textLength="400.0" lengthAdjust="spacing">                :----==--=-+=:-:-::-*+--++++==---*=+++===--+***+++=+++=-=---++-:-:::::::::                              </text>
-<text class="art" xml:space="preserve" x="25" y="200.4" textLength="400.0" lengthAdjust="spacing">                ::-+----===+=:---==-===*=-=+++++*+========+++#**=++++++=--=-++:--=-::::--                               </text>
-<text class="art" xml:space="preserve" x="25" y="207.5" textLength="400.0" lengthAdjust="spacing">                 :+----==---=----=::-+=-.--:---=++=--+==+*##+=+*+*+++*+*=-==+===--=---::-                               </text>
-<text class="art" xml:space="preserve" x="25" y="214.6" textLength="400.0" lengthAdjust="spacing">                  -::==---==:::=-:.:=+=+=====*=-**+=---==+*#*-++**###**+++++=+=--=====-::                               </text>
-<text class="art" xml:space="preserve" x="25" y="221.7" textLength="400.0" lengthAdjust="spacing">                    --:-:-+=----:-..:**-:-=+***+****==---==++**##****+##*++=+===+++==++-.                               </text>
-<text class="art" xml:space="preserve" x="25" y="228.8" textLength="400.0" lengthAdjust="spacing">                     -:-----:-==--=--==--=-==+****#+++=====#%%%####%#####*******+++++=+#-                               </text>
-<text class="art" xml:space="preserve" x="25" y="235.9" textLength="400.0" lengthAdjust="spacing">                     ::---=-::::::==:--=--==+++****++++*+-*####%##%%%%%%%%####****+++=+*#                               </text>
-<text class="art" xml:space="preserve" x="25" y="243.0" textLength="400.0" lengthAdjust="spacing">                      :::-==:---::-----===+*******#***+**%%%#%%%%%%%%%%%%%%%##*+=---:.:+*                               </text>
-<text class="art" xml:space="preserve" x="25" y="250.1" textLength="400.0" lengthAdjust="spacing">                        :--:=--:::-----===+*##*#######%%%%#%%%%%##%#%%#%##**=-:::::--===+#                              </text>
-<text class="art" xml:space="preserve" x="25" y="257.2" textLength="400.0" lengthAdjust="spacing">                         :-:=+---:::-+*+++++**###%%%%##%##%##########**+-::.:-==+=====--=+                              </text>
-<text class="art" xml:space="preserve" x="25" y="264.3" textLength="400.0" lengthAdjust="spacing">                          --:::.:::-+***+++***##%%%%%%%####**********=-:------::--::.:-++++                             </text>
-<text class="art" xml:space="preserve" x="25" y="271.4" textLength="400.0" lengthAdjust="spacing">                          :-:--:::-++*******#%#%###***+==----=++****+==--::::::-#=---++***++                            </text>
-<text class="art" xml:space="preserve" x="25" y="278.5" textLength="400.0" lengthAdjust="spacing">                          ##=---::+#*******#*+---:::.:::----===+*****+-:::-====+==--+*###**+                            </text>
-<text class="art" xml:space="preserve" x="25" y="285.6" textLength="400.0" lengthAdjust="spacing">                          =*#=:-::%%*****=------=+++=--:-::---=+*%%@%#+::--------=+##%###**++                           </text>
-<text class="art" xml:space="preserve" x="25" y="292.7" textLength="400.0" lengthAdjust="spacing">                          ::=*+:-:#%#**++==++++=-:-::::-*-:::--+*#@@@%%===++**####%%%%%###**+                           </text>
-<text class="art" xml:space="preserve" x="25" y="299.8" textLength="400.0" lengthAdjust="spacing">                          -:**++--=@%**++===-::::-==-====---=++**#%@@@%#+***###%%%%%%%%###**+*                          </text>
-<text class="art" xml:space="preserve" x="25" y="306.9" textLength="400.0" lengthAdjust="spacing">                           :*=-:--:#%#######***++++==-----+*####%%%@@@@%#**+++*##%%%%####***++                          </text>
-<text class="art" xml:space="preserve" x="25" y="314.0" textLength="400.0" lengthAdjust="spacing">                            =*+:-*-+%%%#%%%%%##***++++**###%%%%%@@@@@@@@%%*+#*--+*#####***++++                          </text>
-<text class="art" xml:space="preserve" x="25" y="321.1" textLength="400.0" lengthAdjust="spacing">                             =**+#=+%%%%%%%%%@%%%%%%%%%%%%%%#**##%@@@@@@@%#*#%#--=+****+++===+                          </text>
-<text class="art" xml:space="preserve" x="25" y="328.2" textLength="400.0" lengthAdjust="spacing">                             #+=%*+*%%%%%%%%%%@@%%%%%%%%%%#*=+@@@@%@%%%%@##*++=+=-==+++==----=                          </text>
-<text class="art" xml:space="preserve" x="25" y="335.3" textLength="400.0" lengthAdjust="spacing">                              %#%**#%%%%%#%%%%%%%%%%%####*+=-*@@@@@%@@%%%#*=::=**+---===--====                          </text>
-<text class="art" xml:space="preserve" x="25" y="342.4" textLength="400.0" lengthAdjust="spacing">                               %###*##%%%%#%%%%%%%#####**+=-++*+=====+***+=::--+=+--=-=+++*++=                          </text>
-<text class="art" xml:space="preserve" x="25" y="349.5" textLength="400.0" lengthAdjust="spacing">                               ###%#**%%%####%%%#####***+=-+*##***+===-=-:::===++----=+#*#*++                           </text>
-<text class="art" xml:space="preserve" x="25" y="356.6" textLength="400.0" lengthAdjust="spacing">                                  *+***#%%%########***++=-+**#%*#*****+++++=+*+++-:---+###*+=                           </text>
-<text class="art" xml:space="preserve" x="25" y="363.7" textLength="400.0" lengthAdjust="spacing">                                      +*##%###******+++=-==**=+###%%%##**+=--:-==+***+****+=                            </text>
-<text class="art" xml:space="preserve" x="25" y="370.8" textLength="400.0" lengthAdjust="spacing">                                      ***######*+++++++-=+-**#%%%#*++=-=-:=+*#*+*####*+*+==                             </text>
-<text class="art" xml:space="preserve" x="25" y="377.9" textLength="400.0" lengthAdjust="spacing">                                      :+##%##%%#*+**##*=+--=+==-==+**####%%%#*+**+###*--==-                             </text>
-<text class="art" xml:space="preserve" x="25" y="385.0" textLength="400.0" lengthAdjust="spacing">                                 .....+==+#%%%######%%%%*+=*%%%@@%%%%###*******=+#%#*+:---:..:--::-=-:-:::-==+=====     </text>
-<text class="art" xml:space="preserve" x="25" y="392.1" textLength="400.0" lengthAdjust="spacing">                               -::...-+--*=*%%%%#%%%%%%%#**%@@@@@%%######*+=--+*#%%#=-.:-=:..:--:::==---::=====++++++=-:</text>
-<text class="art" xml:space="preserve" x="25" y="399.2" textLength="400.0" lengthAdjust="spacing">                          =**+==-...:*=-=*-:=#%%%#########*#%@@@@%%%**+=--=+*%@@@%%*-::-+=:.::-=-:--==:--:=-=======-::--</text>
-<text class="art" xml:space="preserve" x="25" y="406.3" textLength="400.0" lengthAdjust="spacing">                     ++=--=**==::...=+=-=*=:.#*=*#####******###%%%%%@@@@@@%@@%%%##*-::=++=..::-=----==:-::--=+===--:-==+</text>
-<text class="art" xml:space="preserve" x="25" y="413.4" textLength="400.0" lengthAdjust="spacing">                ::=++++++=+#+--:...:+=+==#=:.:%%*--=++=++**+==**###%@@@@%%#%%###*=-::=+++-..:--------=:::::---=-=-==--==</text>
-<text class="art" xml:space="preserve" x="25" y="420.5" textLength="400.0" lengthAdjust="spacing">          ++*++=-====+-:==*+=--:.:.:+=+==*+-:.-@@%#=--===-=======+***###*####++=-::-++++=:.:--=-----==:--:.:==+=---=-+=+</text>
-<text class="art" xml:space="preserve" x="25" y="427.6" textLength="400.0" lengthAdjust="spacing">      ++++***++::=*--+-++==*=-:..::.====-+*+-:.-%@%%#*+=--====-:--==--=+===-=-:::-=+++++=..:--=-----==:---::-=+=-===-=-=</text>
-<text class="art" xml:space="preserve" x="25" y="434.7" textLength="400.0" lengthAdjust="spacing"> ***+======++--::-=:-=--==+*+-:..::.====-=*++=:.-#%%%%%##++=---::::::::-::::::-=+++++++=:.:-----------.-=-:.-=+=-=-==--+</text>
-<text class="art" xml:space="preserve" x="25" y="441.8" textLength="400.0" lengthAdjust="spacing">+++--+==+==+==-:-::--+===+*+=::..:-::=====***=-:.:*%%%%%#####**+=============+++++*+++=-..----------=-:-=--.-==========+</text>
-<text class="art" xml:space="preserve" x="25" y="448.9" textLength="400.0" lengthAdjust="spacing">=*+-=++===+++=+-:-==+====**=-:...:--.-=====*+++-:.:+##%%%#######****++++=++++++****++=-:::---------==.:----.-=+=-=====+=</text>
-<text class="art" xml:space="preserve" x="25" y="456.0" textLength="400.0" lengthAdjust="spacing">**=-=++===++++-==-==--=+**+=-:...:==::+====**+===:.:=*##%%%%%######****+**********++=--::----::--=-=::-----.-===-==--==+</text>
-<text class="art" xml:space="preserve" x="25" y="463.1" textLength="400.0" lengthAdjust="spacing">**+======+++++++==---=+++=+=-:...:=+-.-+====*+**+==:.-+*#############***********+++==---:===--:---=-:-----::==+=----==++</text>
-<text class="art" xml:space="preserve" x="25" y="470.2" textLength="400.0" lengthAdjust="spacing">***===-==+++=+++===-=====++=-:..::-+=:.=+===***=:.-+:.:=+**########************+++====--=-=--------:---:--::=+=--=-=+==+</text>
-<text class="art" xml:space="preserve" x="25" y="477.3" textLength="400.0" lengthAdjust="spacing">+**+=--=+++==++++++====-=++=-:..::-=+-.:++==+#-...-*==::-=++****##************++++++++=:..:=-------:------::=+=-=-=++===</text>
-<text class="art" xml:space="preserve" x="25" y="484.4" textLength="400.0" lengthAdjust="spacing">++**+=--====++++++=+=++==+++-:..:::=+=-.:+++=*....-@%-==--=+++**********#**#****++**=-:....---:---::-::---::+=---=+++++=</text>
-<text class="art" xml:space="preserve" x="25" y="491.5" textLength="400.0" lengthAdjust="spacing">+=+*+=--===++++++++++===+++=:..::::-++=-.-+--*:....:+-=+=-+++++******#########*##%+-:::....-:-=:-:--------::++=-=+++==-=</text>
-<text class="art" xml:space="preserve" x="25" y="498.6" textLength="400.0" lengthAdjust="spacing">-+=+++-=--=+=++++++++++===--:..:----=++=-.:=@%-....::--++-=*******######%%%%%%%%%#:::::....::%@+.:-------::-+===++===--=</text>
-<text class="art" xml:space="preserve" x="25" y="505.7" textLength="400.0" lengthAdjust="spacing">-:--*+==--==+++++=---++===-::.:-----=+++=-::#*-.:..:--==++:=*#*######%%%%%%%%%%%#-::::......:-=::--------::-=++++==---==</text>
-<text class="art" xml:space="preserve" x="25" y="512.8" textLength="400.0" lengthAdjust="spacing">+=:-=*+=====++++==--==++==-::::------=+*+=-:=*:.==:.:=---=-:--*#######%%%%%%%%@@=-:--....:-:.:=-:---------:==+++==---===</text>
-<text class="art" xml:space="preserve" x="25" y="519.9" textLength="400.0" lengthAdjust="spacing">=+=::+*+=====+++=----=+*+=-::::---==-=++++=-:-:.:*+-.:--==-::::-*####%%%%%%%@@*::+-::...---::::-----------:==++===--===+</text>
-<text class="art" xml:space="preserve" x="25" y="527.0" textLength="400.0" lengthAdjust="spacing">=-+=::*+====++++=---==+*+==-:::----====+++==-.:-:-*+=::---------:-####%%%%@%*==++-....:---::::------------=====-----===+</text>
-<text class="art" xml:space="preserve" x="25" y="534.1" textLength="400.0" lengthAdjust="spacing">==-=+:-*+===++===---==++*+--:::-=======++*+=-::----++=-:--+==-:-=-:*%##%%@#-===:..:..:---::---------------=+++=----====+</text>
-<text class="art" xml:space="preserve" x="25" y="541.2" textLength="400.0" lengthAdjust="spacing">+==--+:+*+=======-:--=++*+--::--=-======+*++=-::----++=---=-.=##+.--+##%%*=-:...::..:----:---===--=------=+++=---=======</text>
-<text class="art" xml:space="preserve" x="25" y="548.3" textLength="400.0" lengthAdjust="spacing">=====---++++====----=+=**+=:::-====-====+*++==-:---:=+*=---=:@@@@---:*##=:...:::::::--------=---====----=+++=----=======</text>
-<text class="art" xml:space="preserve" x="25" y="555.4" textLength="400.0" lengthAdjust="spacing">=-====-:=+++====-----==+*+=-:-====-======+*++==------=*+==:=--++=-+==-*:.::::::--::==--:--==--=====--=-==++==-==-=====++</text>
-<text class="art" xml:space="preserve" x="25" y="562.5" textLength="400.0" lengthAdjust="spacing">===---=-:+++===-----==+**+=-:--=========++++=+==-----:=+++-=+=======-+-::::----=-:==-----===-=======-===+++==-----======</text>
-<text class="art" xml:space="preserve" x="25" y="569.6" textLength="400.0" lengthAdjust="spacing">---==-:::-+====---:-==+++++-:--+=======+++++++===---=-:=++==+++-===++:::---==-==:===---===========-===++++===----=======</text>
-<text class="art" xml:space="preserve" x="25" y="576.7" textLength="400.0" lengthAdjust="spacing">==------:.=+==----::-==+++=---==========++++++++===-----=+++=+=--=-=-:---=====+=-==---===============++++==-----=======+</text>
-<text class="art" xml:space="preserve" x="25" y="583.8" textLength="400.0" lengthAdjust="spacing">---------::++=----:--==++++=---=-======++++++=======-----=++=====-==:--====+==+=-=--========+====-=+=++++=--------=====+</text>
-<text class="art" xml:space="preserve" x="25" y="590.9" textLength="400.0" lengthAdjust="spacing">====-----:.-===---:--===++===-=-=====+++++++*++=+====-----=+==+=--=:-====++===+----======++========+++++=-------======++</text>
+<rect width="975" height="853" rx="15" fill="#161b22"/>
+<text class="art" xml:space="preserve" x="25" y="40.0" textLength="400.0" lengthAdjust="spacing">                                                                                                                        </text>
+<text class="art" xml:space="preserve" x="25" y="46.7" textLength="400.0" lengthAdjust="spacing">                                                                                                                        </text>
+<text class="art" xml:space="preserve" x="25" y="53.3" textLength="400.0" lengthAdjust="spacing">                                                                                                                        </text>
+<text class="art" xml:space="preserve" x="25" y="60.0" textLength="400.0" lengthAdjust="spacing">                                                                                                                        </text>
+<text class="art" xml:space="preserve" x="25" y="66.7" textLength="400.0" lengthAdjust="spacing">                                                                                                                        </text>
+<text class="art" xml:space="preserve" x="25" y="73.3" textLength="400.0" lengthAdjust="spacing">                                                    ++--+++++=++                                                        </text>
+<text class="art" xml:space="preserve" x="25" y="80.0" textLength="400.0" lengthAdjust="spacing">                                          +++=-=++*=+**++-===+---++=++                                                  </text>
+<text class="art" xml:space="preserve" x="25" y="86.7" textLength="400.0" lengthAdjust="spacing">                                     +==+==*:+-=====+*+==+=++---=:++--====                                              </text>
+<text class="art" xml:space="preserve" x="25" y="93.3" textLength="400.0" lengthAdjust="spacing">                                  ++**=++-=---:::--===-:-:::---==--==-=--==                                             </text>
+<text class="art" xml:space="preserve" x="25" y="100.0" textLength="400.0" lengthAdjust="spacing">                               +===+*++=-*=:*=---::-===-:::::::--==+++--===-                                            </text>
+<text class="art" xml:space="preserve" x="25" y="106.7" textLength="400.0" lengthAdjust="spacing">                              +===*+-==--#+-=+*=-.:--===--:::::::--=+=:-::---==+                                        </text>
+<text class="art" xml:space="preserve" x="25" y="113.3" textLength="400.0" lengthAdjust="spacing">                            =====-:-----==--:---::.-::----:::----::---==--:::--==                                       </text>
+<text class="art" xml:space="preserve" x="25" y="120.0" textLength="400.0" lengthAdjust="spacing">                          ---=-::-::==+=-=:::::--:-----:::---=-=--===---+---::::--:-                                    </text>
+<text class="art" xml:space="preserve" x="25" y="126.7" textLength="400.0" lengthAdjust="spacing">                         =-=----:---==:=+----::----====--:::--==----==-----=-::::----                                   </text>
+<text class="art" xml:space="preserve" x="25" y="133.3" textLength="400.0" lengthAdjust="spacing">                       ==----::::-:-=:-=---::::::::---=----:-=++=+++===-::-:-==:::::-::                                 </text>
+<text class="art" xml:space="preserve" x="25" y="140.0" textLength="400.0" lengthAdjust="spacing">                      --==-::::::---=-*---:-+==----:=-----::--:----=+=====--=---:-:-:--.                                </text>
+<text class="art" xml:space="preserve" x="25" y="146.7" textLength="400.0" lengthAdjust="spacing">                      ----=-:::::-=--+==::=+-==+=-:=----::::::---===--=-==++--::--:-----:                               </text>
+<text class="art" xml:space="preserve" x="25" y="153.3" textLength="400.0" lengthAdjust="spacing">                    ----::=-::::.-=-=+--:=--=+====-==:===:::-=---=--=--=--===------:::::-:                              </text>
+<text class="art" xml:space="preserve" x="25" y="160.0" textLength="400.0" lengthAdjust="spacing">                  -=---:--+=-::::-+=*+-::--:====++=----==---==-=====+++=-=--+----:::::::::.                             </text>
+<text class="art" xml:space="preserve" x="25" y="166.7" textLength="400.0" lengthAdjust="spacing">                  ===----===-::::=====--==-:--=++*====----:=---========----==-:---:::::::.:                             </text>
+<text class="art" xml:space="preserve" x="25" y="173.3" textLength="400.0" lengthAdjust="spacing">                 =-=--=---=--:-:-::=++-#*+-:---.-==++====+---=------===---==-=:::--::....::                             </text>
+<text class="art" xml:space="preserve" x="25" y="180.0" textLength="400.0" lengthAdjust="spacing">                :=--===----==-:::::-#+==+::.:-==-++=---=++=:+++=++====--::-=+---:::::::.::                              </text>
+<text class="art" xml:space="preserve" x="25" y="186.7" textLength="400.0" lengthAdjust="spacing">                :----==--=-+=:-:-::-*+--++++==---*=+++===--+***+++=+++=-=---++-:-:::::::::                              </text>
+<text class="art" xml:space="preserve" x="25" y="193.3" textLength="400.0" lengthAdjust="spacing">                ::-+----===+=:---==-===*=-=+++++*+========+++#**=++++++=--=-++:--=-::::--                               </text>
+<text class="art" xml:space="preserve" x="25" y="200.0" textLength="400.0" lengthAdjust="spacing">                 :+----==---=----=::-+=-.--:---=++=--+==+*##+=+*+*+++*+*=-==+===--=---::-                               </text>
+<text class="art" xml:space="preserve" x="25" y="206.7" textLength="400.0" lengthAdjust="spacing">                  -::==---==:::=-:.:=+=+=====*=-**+=---==+*#*-++**###**+++++=+=--=====-::                               </text>
+<text class="art" xml:space="preserve" x="25" y="213.3" textLength="400.0" lengthAdjust="spacing">                    --:-:-+=----:-..:**-:-=+***+****==---==++**##****+##*++=+===+++==++-.                               </text>
+<text class="art" xml:space="preserve" x="25" y="220.0" textLength="400.0" lengthAdjust="spacing">                     -:-----:-==--=--==--=-==+****#+++=====#%%%####%#####*******+++++=+#-                               </text>
+<text class="art" xml:space="preserve" x="25" y="226.7" textLength="400.0" lengthAdjust="spacing">                     ::---=-::::::==:--=--==+++****++++*+-*####%##%%%%%%%%####****+++=+*#                               </text>
+<text class="art" xml:space="preserve" x="25" y="233.3" textLength="400.0" lengthAdjust="spacing">                      :::-==:---::-----===+*******#***+**%%%#%%%%%%%%%%%%%%%##*+=---:.:+*                               </text>
+<text class="art" xml:space="preserve" x="25" y="240.0" textLength="400.0" lengthAdjust="spacing">                        :--:=--:::-----===+*##*#######%%%%#%%%%%##%#%%#%##**=-:::::--===+#                              </text>
+<text class="art" xml:space="preserve" x="25" y="246.7" textLength="400.0" lengthAdjust="spacing">                         :-:=+---:::-+*+++++**###%%%%##%##%##########**+-::.:-==+=====--=+                              </text>
+<text class="art" xml:space="preserve" x="25" y="253.3" textLength="400.0" lengthAdjust="spacing">                          --:::.:::-+***+++***##%%%%%%%####**********=-:------::--::.:-++++                             </text>
+<text class="art" xml:space="preserve" x="25" y="260.0" textLength="400.0" lengthAdjust="spacing">                          :-:--:::-++*******#%#%###***+==----=++****+==--::::::-#=---++***++                            </text>
+<text class="art" xml:space="preserve" x="25" y="266.7" textLength="400.0" lengthAdjust="spacing">                          ##=---::+#*******#*+---:::.:::----===+*****+-:::-====+==--+*###**+                            </text>
+<text class="art" xml:space="preserve" x="25" y="273.3" textLength="400.0" lengthAdjust="spacing">                          =*#=:-::%%*****=------=+++=--:-::---=+*%%@%#+::--------=+##%###**++                           </text>
+<text class="art" xml:space="preserve" x="25" y="280.0" textLength="400.0" lengthAdjust="spacing">                          ::=*+:-:#%#**++==++++=-:-::::-*-:::--+*#@@@%%===++**####%%%%%###**+                           </text>
+<text class="art" xml:space="preserve" x="25" y="286.7" textLength="400.0" lengthAdjust="spacing">                          -:**++--=@%**++===-::::-==-====---=++**#%@@@%#+***###%%%%%%%%###**+*                          </text>
+<text class="art" xml:space="preserve" x="25" y="293.3" textLength="400.0" lengthAdjust="spacing">                           :*=-:--:#%#######***++++==-----+*####%%%@@@@%#**+++*##%%%%####***++                          </text>
+<text class="art" xml:space="preserve" x="25" y="300.0" textLength="400.0" lengthAdjust="spacing">                            =*+:-*-+%%%#%%%%%##***++++**###%%%%%@@@@@@@@%%*+#*--+*#####***++++                          </text>
+<text class="art" xml:space="preserve" x="25" y="306.7" textLength="400.0" lengthAdjust="spacing">                             =**+#=+%%%%%%%%%@%%%%%%%%%%%%%%#**##%@@@@@@@%#*#%#--=+****+++===+                          </text>
+<text class="art" xml:space="preserve" x="25" y="313.3" textLength="400.0" lengthAdjust="spacing">                             #+=%*+*%%%%%%%%%%@@%%%%%%%%%%#*=+@@@@%@%%%%@##*++=+=-==+++==----=                          </text>
+<text class="art" xml:space="preserve" x="25" y="320.0" textLength="400.0" lengthAdjust="spacing">                              %#%**#%%%%%#%%%%%%%%%%%####*+=-*@@@@@%@@%%%#*=::=**+---===--====                          </text>
+<text class="art" xml:space="preserve" x="25" y="326.7" textLength="400.0" lengthAdjust="spacing">                               %###*##%%%%#%%%%%%%#####**+=-++*+=====+***+=::--+=+--=-=+++*++=                          </text>
+<text class="art" xml:space="preserve" x="25" y="333.3" textLength="400.0" lengthAdjust="spacing">                               ###%#**%%%####%%%#####***+=-+*##***+===-=-:::===++----=+#*#*++                           </text>
+<text class="art" xml:space="preserve" x="25" y="340.0" textLength="400.0" lengthAdjust="spacing">                                  *+***#%%%########***++=-+**#%*#*****+++++=+*+++-:---+###*+=                           </text>
+<text class="art" xml:space="preserve" x="25" y="346.7" textLength="400.0" lengthAdjust="spacing">                                      +*##%###******+++=-==**=+###%%%##**+=--:-==+***+****+=                            </text>
+<text class="art" xml:space="preserve" x="25" y="353.3" textLength="400.0" lengthAdjust="spacing">                                      ***######*+++++++-=+-**#%%%#*++=-=-:=+*#*+*####*+*+==                             </text>
+<text class="art" xml:space="preserve" x="25" y="360.0" textLength="400.0" lengthAdjust="spacing">                                      :+##%##%%#*+**##*=+--=+==-==+**####%%%#*+**+###*--==-                             </text>
+<text class="art" xml:space="preserve" x="25" y="366.7" textLength="400.0" lengthAdjust="spacing">                                 .....+==+#%%%######%%%%*+=*%%%@@%%%%###*******=+#%#*+:---:..:--::-=-:-:::-==+=====     </text>
+<text class="art" xml:space="preserve" x="25" y="373.3" textLength="400.0" lengthAdjust="spacing">                               -::...-+--*=*%%%%#%%%%%%%#**%@@@@@%%######*+=--+*#%%#=-.:-=:..:--:::==---::=====++++++=-:</text>
+<text class="art" xml:space="preserve" x="25" y="380.0" textLength="400.0" lengthAdjust="spacing">                          =**+==-...:*=-=*-:=#%%%#########*#%@@@@%%%**+=--=+*%@@@%%*-::-+=:.::-=-:--==:--:=-=======-::--</text>
+<text class="art" xml:space="preserve" x="25" y="386.7" textLength="400.0" lengthAdjust="spacing">                     ++=--=**==::...=+=-=*=:.#*=*#####******###%%%%%@@@@@@%@@%%%##*-::=++=..::-=----==:-::--=+===--:-==+</text>
+<text class="art" xml:space="preserve" x="25" y="393.3" textLength="400.0" lengthAdjust="spacing">                ::=++++++=+#+--:...:+=+==#=:.:%%*--=++=++**+==**###%@@@@%%#%%###*=-::=+++-..:--------=:::::---=-=-==--==</text>
+<text class="art" xml:space="preserve" x="25" y="400.0" textLength="400.0" lengthAdjust="spacing">          ++*++=-====+-:==*+=--:.:.:+=+==*+-:.-@@%#=--===-=======+***###*####++=-::-++++=:.:--=-----==:--:.:==+=---=-+=+</text>
+<text class="art" xml:space="preserve" x="25" y="406.7" textLength="400.0" lengthAdjust="spacing">      ++++***++::=*--+-++==*=-:..::.====-+*+-:.-%@%%#*+=--====-:--==--=+===-=-:::-=+++++=..:--=-----==:---::-=+=-===-=-=</text>
+<text class="art" xml:space="preserve" x="25" y="413.3" textLength="400.0" lengthAdjust="spacing"> ***+======++--::-=:-=--==+*+-:..::.====-=*++=:.-#%%%%%##++=---::::::::-::::::-=+++++++=:.:-----------.-=-:.-=+=-=-==--+</text>
+<text class="art" xml:space="preserve" x="25" y="420.0" textLength="400.0" lengthAdjust="spacing">+++--+==+==+==-:-::--+===+*+=::..:-::=====***=-:.:*%%%%%#####**+=============+++++*+++=-..----------=-:-=--.-==========+</text>
+<text class="art" xml:space="preserve" x="25" y="426.7" textLength="400.0" lengthAdjust="spacing">=*+-=++===+++=+-:-==+====**=-:...:--.-=====*+++-:.:+##%%%#######****++++=++++++****++=-:::---------==.:----.-=+=-=====+=</text>
+<text class="art" xml:space="preserve" x="25" y="433.3" textLength="400.0" lengthAdjust="spacing">**=-=++===++++-==-==--=+**+=-:...:==::+====**+===:.:=*##%%%%%######****+**********++=--::----::--=-=::-----.-===-==--==+</text>
+<text class="art" xml:space="preserve" x="25" y="440.0" textLength="400.0" lengthAdjust="spacing">**+======+++++++==---=+++=+=-:...:=+-.-+====*+**+==:.-+*#############***********+++==---:===--:---=-:-----::==+=----==++</text>
+<text class="art" xml:space="preserve" x="25" y="446.7" textLength="400.0" lengthAdjust="spacing">***===-==+++=+++===-=====++=-:..::-+=:.=+===***=:.-+:.:=+**########************+++====--=-=--------:---:--::=+=--=-=+==+</text>
+<text class="art" xml:space="preserve" x="25" y="453.3" textLength="400.0" lengthAdjust="spacing">+**+=--=+++==++++++====-=++=-:..::-=+-.:++==+#-...-*==::-=++****##************++++++++=:..:=-------:------::=+=-=-=++===</text>
+<text class="art" xml:space="preserve" x="25" y="460.0" textLength="400.0" lengthAdjust="spacing">++**+=--====++++++=+=++==+++-:..:::=+=-.:+++=*....-@%-==--=+++**********#**#****++**=-:....---:---::-::---::+=---=+++++=</text>
+<text class="art" xml:space="preserve" x="25" y="466.7" textLength="400.0" lengthAdjust="spacing">+=+*+=--===++++++++++===+++=:..::::-++=-.-+--*:....:+-=+=-+++++******#########*##%+-:::....-:-=:-:--------::++=-=+++==-=</text>
+<text class="art" xml:space="preserve" x="25" y="473.3" textLength="400.0" lengthAdjust="spacing">-+=+++-=--=+=++++++++++===--:..:----=++=-.:=@%-....::--++-=*******######%%%%%%%%%#:::::....::%@+.:-------::-+===++===--=</text>
+<text class="art" xml:space="preserve" x="25" y="480.0" textLength="400.0" lengthAdjust="spacing">-:--*+==--==+++++=---++===-::.:-----=+++=-::#*-.:..:--==++:=*#*######%%%%%%%%%%%#-::::......:-=::--------::-=++++==---==</text>
+<text class="art" xml:space="preserve" x="25" y="486.7" textLength="400.0" lengthAdjust="spacing">+=:-=*+=====++++==--==++==-::::------=+*+=-:=*:.==:.:=---=-:--*#######%%%%%%%%@@=-:--....:-:.:=-:---------:==+++==---===</text>
+<text class="art" xml:space="preserve" x="25" y="493.3" textLength="400.0" lengthAdjust="spacing">=+=::+*+=====+++=----=+*+=-::::---==-=++++=-:-:.:*+-.:--==-::::-*####%%%%%%%@@*::+-::...---::::-----------:==++===--===+</text>
+<text class="art" xml:space="preserve" x="25" y="500.0" textLength="400.0" lengthAdjust="spacing">=-+=::*+====++++=---==+*+==-:::----====+++==-.:-:-*+=::---------:-####%%%%@%*==++-....:---::::------------=====-----===+</text>
+<text class="art" xml:space="preserve" x="25" y="506.7" textLength="400.0" lengthAdjust="spacing">==-=+:-*+===++===---==++*+--:::-=======++*+=-::----++=-:--+==-:-=-:*%##%%@#-===:..:..:---::---------------=+++=----====+</text>
+<text class="art" xml:space="preserve" x="25" y="513.3" textLength="400.0" lengthAdjust="spacing">+==--+:+*+=======-:--=++*+--::--=-======+*++=-::----++=---=-.=##+.--+##%%*=-:...::..:----:---===--=------=+++=---=======</text>
+<text class="art" xml:space="preserve" x="25" y="520.0" textLength="400.0" lengthAdjust="spacing">=====---++++====----=+=**+=:::-====-====+*++==-:---:=+*=---=:@@@@---:*##=:...:::::::--------=---====----=+++=----=======</text>
+<text class="art" xml:space="preserve" x="25" y="526.7" textLength="400.0" lengthAdjust="spacing">=-====-:=+++====-----==+*+=-:-====-======+*++==------=*+==:=--++=-+==-*:.::::::--::==--:--==--=====--=-==++==-==-=====++</text>
+<text class="art" xml:space="preserve" x="25" y="533.3" textLength="400.0" lengthAdjust="spacing">===---=-:+++===-----==+**+=-:--=========++++=+==-----:=+++-=+=======-+-::::----=-:==-----===-=======-===+++==-----======</text>
+<text class="art" xml:space="preserve" x="25" y="540.0" textLength="400.0" lengthAdjust="spacing">---==-:::-+====---:-==+++++-:--+=======+++++++===---=-:=++==+++-===++:::---==-==:===---===========-===++++===----=======</text>
+<text class="art" xml:space="preserve" x="25" y="546.7" textLength="400.0" lengthAdjust="spacing">==------:.=+==----::-==+++=---==========++++++++===-----=+++=+=--=-=-:---=====+=-==---===============++++==-----=======+</text>
+<text class="art" xml:space="preserve" x="25" y="553.3" textLength="400.0" lengthAdjust="spacing">---------::++=----:--==++++=---=-======++++++=======-----=++=====-==:--====+==+=-=--========+====-=+=++++=--------=====+</text>
+<text class="art" xml:space="preserve" x="25" y="560.0" textLength="400.0" lengthAdjust="spacing">====-----:.-===---:--===++===-=-=====+++++++*++=+====-----=+==+=--=:-====++===+----======++========+++++=-------======++</text>
 <text xml:space="preserve" x="450" y="40"><tspan class="u">rajarshi</tspan>@<tspan class="u">github</tspan></text>
 <text xml:space="preserve" x="450" y="60" textLength="495.6" lengthAdjust="spacing"><tspan class="d">-----------------------------------------------------------</tspan></text>
 <text xml:space="preserve" x="450" y="80" textLength="495.6" lengthAdjust="spacing"><tspan class="k">OS</tspan>:<tspan class="d"> ............ </tspan><tspan class="v">Windows 11 (+ Insider), Linux, iOS 27 Beta</tspan></text>
@@ -106,49 +106,49 @@ text{font-family:ConsolasFallback,Consolas,"DejaVu Sans Mono","Courier New",mono
 <text xml:space="preserve" x="450" y="460" textLength="495.6" lengthAdjust="spacing"><tspan class="k">Discord</tspan>:<tspan class="d"> ......................................... </tspan><tspan class="v">rajxenvy</tspan></text>
 <text xml:space="preserve" x="450" y="500" textLength="495.6" lengthAdjust="spacing">- GitHub Stats <tspan class="d">--------------------------------------------</tspan></text>
 <text xml:space="preserve" x="450" y="520" textLength="495.6" lengthAdjust="spacing"><tspan class="k">Repos</tspan>:<tspan class="d"> ............ </tspan><tspan class="v">8 {Contributed: 8}</tspan> | <tspan class="k">Stars</tspan>:<tspan class="d"> ......... </tspan><tspan class="v">0</tspan></text>
-<text xml:space="preserve" x="450" y="540" textLength="495.6" lengthAdjust="spacing"><tspan class="k">Commits</tspan>:<tspan class="d"> ....................... </tspan><tspan class="v">1,266</tspan> | <tspan class="k">Followers</tspan>:<tspan class="d"> ..... </tspan><tspan class="v">4</tspan></text>
+<text xml:space="preserve" x="450" y="540" textLength="495.6" lengthAdjust="spacing"><tspan class="k">Commits</tspan>:<tspan class="d"> ....................... </tspan><tspan class="v">1,267</tspan> | <tspan class="k">Followers</tspan>:<tspan class="d"> ..... </tspan><tspan class="v">4</tspan></text>
 <text xml:space="preserve" x="450" y="560" textLength="495.6" lengthAdjust="spacing"><tspan class="k">Lines of Code on GitHub</tspan>:<tspan class="d"> .... </tspan><tspan class="v">79,477</tspan> (<tspan class="add">333,613++</tspan>, <tspan class="del">254,136--</tspan>)</text>
-<text x="25" y="628.0" textLength="925" lengthAdjust="spacing">- Tech Stack <tspan class="d">-------------------------------------------------------------------------------------------------</tspan></text>
-<text class="cat" x="25" y="664.0">Languages</text>
-<rect x="190" y="650.0" width="25" height="20" rx="4" fill="#00599C" stroke="#30363d"/><text class="pill" x="202.5" y="664.0" text-anchor="middle" style="fill:#fff">c</text>
-<rect x="221" y="650.0" width="39" height="20" rx="4" fill="#00599C" stroke="#30363d"/><text class="pill" x="240.5" y="664.0" text-anchor="middle" style="fill:#fff">c++</text>
-<rect x="266" y="650.0" width="60" height="20" rx="4" fill="#3670A0" stroke="#30363d"/><text class="pill" x="296.0" y="664.0" text-anchor="middle" style="fill:#ffdd54">python</text>
-<rect x="332" y="650.0" width="88" height="20" rx="4" fill="#007ACC" stroke="#30363d"/><text class="pill" x="376.0" y="664.0" text-anchor="middle" style="fill:#fff">typescript</text>
-<rect x="426" y="650.0" width="53" height="20" rx="4" fill="#E34F26" stroke="#30363d"/><text class="pill" x="452.5" y="664.0" text-anchor="middle" style="fill:#fff">html5</text>
-<rect x="485" y="650.0" width="46" height="20" rx="4" fill="#1572B6" stroke="#30363d"/><text class="pill" x="508.0" y="664.0" text-anchor="middle" style="fill:#fff">css3</text>
-<rect x="537" y="650.0" width="95" height="20" rx="4" fill="#121011" stroke="#30363d"/><text class="pill" x="584.5" y="664.0" text-anchor="middle" style="fill:#fff">bash script</text>
-<rect x="638" y="650.0" width="88" height="20" rx="4" fill="#5391FE" stroke="#30363d"/><text class="pill" x="682.0" y="664.0" text-anchor="middle" style="fill:#fff">PowerShell</text>
-<rect x="732" y="650.0" width="130" height="20" rx="4" fill="#4D4D4D" stroke="#30363d"/><text class="pill" x="797.0" y="664.0" text-anchor="middle" style="fill:#fff">Windows Terminal</text>
-<text class="cat" x="25" y="692.0">Frontend</text>
-<rect x="190" y="678.0" width="53" height="20" rx="4" fill="#20232a" stroke="#30363d"/><text class="pill" x="216.5" y="692.0" text-anchor="middle" style="fill:#61DAFB">react</text>
-<rect x="249" y="678.0" width="88" height="20" rx="4" fill="#E23237" stroke="#30363d"/><text class="pill" x="293.0" y="692.0" text-anchor="middle" style="fill:#fff">angular.js</text>
-<text class="cat" x="25" y="720.0">Backend &amp; Servers</text>
-<rect x="190" y="706.0" width="67" height="20" rx="4" fill="#6DA55F" stroke="#30363d"/><text class="pill" x="223.5" y="720.0" text-anchor="middle" style="fill:#fff">node.js</text>
-<rect x="263" y="706.0" width="60" height="20" rx="4" fill="#D42029" stroke="#30363d"/><text class="pill" x="293.0" y="720.0" text-anchor="middle" style="fill:#fff">apache</text>
-<rect x="329" y="706.0" width="109" height="20" rx="4" fill="#F8DC75" stroke="#30363d"/><text class="pill" x="383.5" y="720.0" text-anchor="middle" style="fill:#000">apache tomcat</text>
-<text class="cat" x="25" y="748.0">Databases</text>
-<rect x="190" y="734.0" width="74" height="20" rx="4" fill="#316192" stroke="#30363d"/><text class="pill" x="227.0" y="748.0" text-anchor="middle" style="fill:#fff">postgres</text>
-<rect x="270" y="734.0" width="53" height="20" rx="4" fill="#4479A1" stroke="#30363d"/><text class="pill" x="296.5" y="748.0" text-anchor="middle" style="fill:#fff">mysql</text>
-<rect x="329" y="734.0" width="67" height="20" rx="4" fill="#4ea94b" stroke="#30363d"/><text class="pill" x="362.5" y="748.0" text-anchor="middle" style="fill:#fff">MongoDB</text>
-<rect x="402" y="734.0" width="60" height="20" rx="4" fill="#07405e" stroke="#30363d"/><text class="pill" x="432.0" y="748.0" text-anchor="middle" style="fill:#fff">sqlite</text>
-<rect x="468" y="734.0" width="74" height="20" rx="4" fill="#a08021" stroke="#30363d"/><text class="pill" x="505.0" y="748.0" text-anchor="middle" style="fill:#ffcd34">firebase</text>
-<rect x="548" y="734.0" width="74" height="20" rx="4" fill="#3ECF8E" stroke="#30363d"/><text class="pill" x="585.0" y="748.0" text-anchor="middle" style="fill:#fff">Supabase</text>
-<text class="cat" x="25" y="776.0">ML / Data Science</text>
-<rect x="190" y="762.0" width="88" height="20" rx="4" fill="#FF6F00" stroke="#30363d"/><text class="pill" x="234.0" y="776.0" text-anchor="middle" style="fill:#fff">TensorFlow</text>
-<rect x="284" y="762.0" width="67" height="20" rx="4" fill="#EE4C2C" stroke="#30363d"/><text class="pill" x="317.5" y="776.0" text-anchor="middle" style="fill:#fff">PyTorch</text>
-<rect x="357" y="762.0" width="53" height="20" rx="4" fill="#013243" stroke="#30363d"/><text class="pill" x="383.5" y="776.0" text-anchor="middle" style="fill:#fff">numpy</text>
-<rect x="416" y="762.0" width="60" height="20" rx="4" fill="#150458" stroke="#30363d"/><text class="pill" x="446.0" y="776.0" text-anchor="middle" style="fill:#fff">pandas</text>
-<rect x="482" y="762.0" width="88" height="20" rx="4" fill="#ffffff" stroke="#30363d"/><text class="pill" x="526.0" y="776.0" text-anchor="middle" style="fill:#000">Matplotlib</text>
-<rect x="576" y="762.0" width="60" height="20" rx="4" fill="#3F4F75" stroke="#30363d"/><text class="pill" x="606.0" y="776.0" text-anchor="middle" style="fill:#fff">Plotly</text>
-<text class="cat" x="25" y="804.0">Cloud &amp; DevOps</text>
-<rect x="190" y="790.0" width="95" height="20" rx="4" fill="#4285F4" stroke="#30363d"/><text class="pill" x="237.5" y="804.0" text-anchor="middle" style="fill:#fff">GoogleCloud</text>
-<rect x="291" y="790.0" width="39" height="20" rx="4" fill="#F05033" stroke="#30363d"/><text class="pill" x="310.5" y="804.0" text-anchor="middle" style="fill:#fff">git</text>
-<rect x="336" y="790.0" width="60" height="20" rx="4" fill="#121011" stroke="#30363d"/><text class="pill" x="366.0" y="804.0" text-anchor="middle" style="fill:#fff">github</text>
-<rect x="402" y="790.0" width="60" height="20" rx="4" fill="#181717" stroke="#30363d"/><text class="pill" x="432.0" y="804.0" text-anchor="middle" style="fill:#fff">gitlab</text>
-<rect x="468" y="790.0" width="81" height="20" rx="4" fill="#181717" stroke="#30363d"/><text class="pill" x="508.5" y="804.0" text-anchor="middle" style="fill:#fff">gitlab CI</text>
-<rect x="555" y="790.0" width="74" height="20" rx="4" fill="#43B02A" stroke="#30363d"/><text class="pill" x="592.0" y="804.0" text-anchor="middle" style="fill:#fff">selenium</text>
-<text class="cat" x="25" y="832.0">Design &amp; Tools</text>
-<rect x="190" y="818.0" width="53" height="20" rx="4" fill="#00C4CC" stroke="#30363d"/><text class="pill" x="216.5" y="832.0" text-anchor="middle" style="fill:#fff">Canva</text>
-<rect x="249" y="818.0" width="53" height="20" rx="4" fill="#FF0000" stroke="#30363d"/><text class="pill" x="275.5" y="832.0" text-anchor="middle" style="fill:#fff">adobe</text>
-<rect x="308" y="818.0" width="123" height="20" rx="4" fill="#31A8FF" stroke="#30363d"/><text class="pill" x="369.5" y="832.0" text-anchor="middle" style="fill:#fff">Adobe Lightroom</text>
+<text x="25" y="610" textLength="925" lengthAdjust="spacing">- Tech Stack <tspan class="d">-------------------------------------------------------------------------------------------------</tspan></text>
+<text class="cat" x="25" y="646">Languages</text>
+<rect x="190" y="632" width="25" height="20" rx="4" fill="#00599C" stroke="#30363d"/><text class="pill" x="202.5" y="646" text-anchor="middle" style="fill:#fff">c</text>
+<rect x="221" y="632" width="39" height="20" rx="4" fill="#00599C" stroke="#30363d"/><text class="pill" x="240.5" y="646" text-anchor="middle" style="fill:#fff">c++</text>
+<rect x="266" y="632" width="60" height="20" rx="4" fill="#3670A0" stroke="#30363d"/><text class="pill" x="296.0" y="646" text-anchor="middle" style="fill:#ffdd54">python</text>
+<rect x="332" y="632" width="88" height="20" rx="4" fill="#007ACC" stroke="#30363d"/><text class="pill" x="376.0" y="646" text-anchor="middle" style="fill:#fff">typescript</text>
+<rect x="426" y="632" width="53" height="20" rx="4" fill="#E34F26" stroke="#30363d"/><text class="pill" x="452.5" y="646" text-anchor="middle" style="fill:#fff">html5</text>
+<rect x="485" y="632" width="46" height="20" rx="4" fill="#1572B6" stroke="#30363d"/><text class="pill" x="508.0" y="646" text-anchor="middle" style="fill:#fff">css3</text>
+<rect x="537" y="632" width="95" height="20" rx="4" fill="#121011" stroke="#30363d"/><text class="pill" x="584.5" y="646" text-anchor="middle" style="fill:#fff">bash script</text>
+<rect x="638" y="632" width="88" height="20" rx="4" fill="#5391FE" stroke="#30363d"/><text class="pill" x="682.0" y="646" text-anchor="middle" style="fill:#fff">PowerShell</text>
+<rect x="732" y="632" width="130" height="20" rx="4" fill="#4D4D4D" stroke="#30363d"/><text class="pill" x="797.0" y="646" text-anchor="middle" style="fill:#fff">Windows Terminal</text>
+<text class="cat" x="25" y="674">Frontend</text>
+<rect x="190" y="660" width="53" height="20" rx="4" fill="#20232a" stroke="#30363d"/><text class="pill" x="216.5" y="674" text-anchor="middle" style="fill:#61DAFB">react</text>
+<rect x="249" y="660" width="88" height="20" rx="4" fill="#E23237" stroke="#30363d"/><text class="pill" x="293.0" y="674" text-anchor="middle" style="fill:#fff">angular.js</text>
+<text class="cat" x="25" y="702">Backend &amp; Servers</text>
+<rect x="190" y="688" width="67" height="20" rx="4" fill="#6DA55F" stroke="#30363d"/><text class="pill" x="223.5" y="702" text-anchor="middle" style="fill:#fff">node.js</text>
+<rect x="263" y="688" width="60" height="20" rx="4" fill="#D42029" stroke="#30363d"/><text class="pill" x="293.0" y="702" text-anchor="middle" style="fill:#fff">apache</text>
+<rect x="329" y="688" width="109" height="20" rx="4" fill="#F8DC75" stroke="#30363d"/><text class="pill" x="383.5" y="702" text-anchor="middle" style="fill:#000">apache tomcat</text>
+<text class="cat" x="25" y="730">Databases</text>
+<rect x="190" y="716" width="74" height="20" rx="4" fill="#316192" stroke="#30363d"/><text class="pill" x="227.0" y="730" text-anchor="middle" style="fill:#fff">postgres</text>
+<rect x="270" y="716" width="53" height="20" rx="4" fill="#4479A1" stroke="#30363d"/><text class="pill" x="296.5" y="730" text-anchor="middle" style="fill:#fff">mysql</text>
+<rect x="329" y="716" width="67" height="20" rx="4" fill="#4ea94b" stroke="#30363d"/><text class="pill" x="362.5" y="730" text-anchor="middle" style="fill:#fff">MongoDB</text>
+<rect x="402" y="716" width="60" height="20" rx="4" fill="#07405e" stroke="#30363d"/><text class="pill" x="432.0" y="730" text-anchor="middle" style="fill:#fff">sqlite</text>
+<rect x="468" y="716" width="74" height="20" rx="4" fill="#a08021" stroke="#30363d"/><text class="pill" x="505.0" y="730" text-anchor="middle" style="fill:#ffcd34">firebase</text>
+<rect x="548" y="716" width="74" height="20" rx="4" fill="#3ECF8E" stroke="#30363d"/><text class="pill" x="585.0" y="730" text-anchor="middle" style="fill:#fff">Supabase</text>
+<text class="cat" x="25" y="758">ML / Data Science</text>
+<rect x="190" y="744" width="88" height="20" rx="4" fill="#FF6F00" stroke="#30363d"/><text class="pill" x="234.0" y="758" text-anchor="middle" style="fill:#fff">TensorFlow</text>
+<rect x="284" y="744" width="67" height="20" rx="4" fill="#EE4C2C" stroke="#30363d"/><text class="pill" x="317.5" y="758" text-anchor="middle" style="fill:#fff">PyTorch</text>
+<rect x="357" y="744" width="53" height="20" rx="4" fill="#013243" stroke="#30363d"/><text class="pill" x="383.5" y="758" text-anchor="middle" style="fill:#fff">numpy</text>
+<rect x="416" y="744" width="60" height="20" rx="4" fill="#150458" stroke="#30363d"/><text class="pill" x="446.0" y="758" text-anchor="middle" style="fill:#fff">pandas</text>
+<rect x="482" y="744" width="88" height="20" rx="4" fill="#ffffff" stroke="#30363d"/><text class="pill" x="526.0" y="758" text-anchor="middle" style="fill:#000">Matplotlib</text>
+<rect x="576" y="744" width="60" height="20" rx="4" fill="#3F4F75" stroke="#30363d"/><text class="pill" x="606.0" y="758" text-anchor="middle" style="fill:#fff">Plotly</text>
+<text class="cat" x="25" y="786">Cloud &amp; DevOps</text>
+<rect x="190" y="772" width="95" height="20" rx="4" fill="#4285F4" stroke="#30363d"/><text class="pill" x="237.5" y="786" text-anchor="middle" style="fill:#fff">GoogleCloud</text>
+<rect x="291" y="772" width="39" height="20" rx="4" fill="#F05033" stroke="#30363d"/><text class="pill" x="310.5" y="786" text-anchor="middle" style="fill:#fff">git</text>
+<rect x="336" y="772" width="60" height="20" rx="4" fill="#121011" stroke="#30363d"/><text class="pill" x="366.0" y="786" text-anchor="middle" style="fill:#fff">github</text>
+<rect x="402" y="772" width="60" height="20" rx="4" fill="#181717" stroke="#30363d"/><text class="pill" x="432.0" y="786" text-anchor="middle" style="fill:#fff">gitlab</text>
+<rect x="468" y="772" width="81" height="20" rx="4" fill="#181717" stroke="#30363d"/><text class="pill" x="508.5" y="786" text-anchor="middle" style="fill:#fff">gitlab CI</text>
+<rect x="555" y="772" width="74" height="20" rx="4" fill="#43B02A" stroke="#30363d"/><text class="pill" x="592.0" y="786" text-anchor="middle" style="fill:#fff">selenium</text>
+<text class="cat" x="25" y="814">Design &amp; Tools</text>
+<rect x="190" y="800" width="53" height="20" rx="4" fill="#00C4CC" stroke="#30363d"/><text class="pill" x="216.5" y="814" text-anchor="middle" style="fill:#fff">Canva</text>
+<rect x="249" y="800" width="53" height="20" rx="4" fill="#FF0000" stroke="#30363d"/><text class="pill" x="275.5" y="814" text-anchor="middle" style="fill:#fff">adobe</text>
+<rect x="308" y="800" width="123" height="20" rx="4" fill="#31A8FF" stroke="#30363d"/><text class="pill" x="369.5" y="814" text-anchor="middle" style="fill:#fff">Adobe Lightroom</text>
 </svg>

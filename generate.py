@@ -108,10 +108,13 @@ STACK = {  # category: [(label, background, text colour)]
 }
 
 
-def ascii_art(x=25, y=30, cw=400 / 120, lh=7.1):
-    """Text portrait from assets/portrait.png (pre-toned, masked): brighter pixel = denser character, background blank."""
+def ascii_art(first, last, x=25, cw=400 / 120):
+    """Text portrait from assets/portrait.png (pre-toned, masked): brighter pixel = denser character, background blank.
+    Rows are spread so the first/last baselines sit on the info panel's first/last baselines."""
     im = Image.open("assets/portrait.png")
     cols, rows = im.size
+    lh = (last - first) / (rows - 1)
+    y = first - lh
     g, m = im.getchannel(0).load(), im.getchannel(1).load()
     out = []
     for j in range(rows):
@@ -174,7 +177,7 @@ def stack_block(y0):
 
 def build():
     info, info_bottom = info_rows(stats())
-    top = max(30 + 80 * 7.1, info_bottom)
+    top = info_bottom
     stack, stack_h = stack_block(top + 30)
     h = top + 30 + stack_h + 15
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_W}" height="{h}" viewBox="0 0 {CARD_W} {h}">
@@ -185,7 +188,7 @@ text{{font-family:ConsolasFallback,Consolas,"DejaVu Sans Mono","Courier New",mon
 .cat{{font-size:12px;fill:#8b949e}} .pill{{font-size:12px;font-weight:bold}}
 </style>
 <rect width="{CARD_W}" height="{h}" rx="15" fill="#161b22"/>
-{ascii_art()}
+{ascii_art(40, info_bottom - 20)}
 {info}
 {stack}
 </svg>
