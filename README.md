@@ -1,18 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FFB86C&center=true&vCenter=true&width=660&lines=AI%2FML+Systems%2C+Full-Stack+%26+Scalable+Infrastructure;Deep+Learning%2C+NLP+%26+Distributed+Systems;B.Tech+CSE+%40+GITAM+Visakhapatnam+%7C+2027;Google+Cloud+Arcade+Legend" alt="Typing SVG" />
-</div>
-
-<h2 align="center">Hi, I'm Rajarshi Ghosh — building intelligent systems, scalable applications, and digging into core computer science.</h2>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=itsrajarshi&color=BF91F3&style=flat-square&label=Profile+Views" alt="Profile Views" />
-</div>
-
-<hr />
-
-<div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=itsrajarshi&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=itsrajarshi&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
+  <img src="neofetch.svg" alt="rajarshi@github profile card" />
 </div>
 
 <hr />
@@ -106,7 +93,7 @@ Currently focused on AI/ML systems, full-stack development, and scalable infrast
   <a href="https://instagram.com/itsrajarshi" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram" />
   </a>
-  <a href="https://discord.com/users/itsrajarshi" target="_blank">
+  <a href="https://discord.com/users/rajxenvy" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord" />
   </a>
 </div>
