@@ -83,19 +83,6 @@ Currently focused on AI/ML systems, full-stack development, and scalable infrast
 
 <hr />
 
-**Featured Projects**
-
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [LectureMind AI](https://github.com/itsrajarshi/lecturemind-ai) | Turns lecture audio into a transcript, study notes, a quiz and flashcards. [Live demo](https://lecturemind-ai.onrender.com) | React, Flask, Groq |
-| [NetSage-AI](https://github.com/itsrajarshi/NetSage-AI) | Autonomous network troubleshooting with Cisco IOS verification and a human-in-the-loop safety gate | Python |
-| [Cab Booking Portal](https://github.com/itsrajarshi/launched-cab-portal) | Automates corporate cab bookings with real-time vendor coordination | Next.js, Node, Supabase, RabbitMQ |
-| [AeroControl](https://github.com/itsrajarshi/AeroControl) | CanSat ground control software: live telemetry, GPS tracking, data visualization | React, TypeScript |
-| [Railway Accident Prevention](https://github.com/itsrajarshi/railway-accident-prevention-system-AI) | Models rail networks as graphs and uses search, optimization and CSP to detect and resolve conflicts | Python, Jupyter |
-| [DDoS Case Study](https://github.com/itsrajarshi/ddos-attack-on-a-website) | Flask app under a simulated DDoS, then hardened with layered defenses | Python, Flask |
-
-<hr />
-
 **Achievements**
 
 <div align="center">
@@ -121,9 +108,6 @@ Currently focused on AI/ML systems, full-stack development, and scalable infrast
   </a>
   <a href="https://discord.com/users/itsrajarshi" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord" />
-  </a>
-  <a href="https://youtube.com/@Rajority" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube" />
   </a>
 </div>
 
