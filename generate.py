@@ -177,7 +177,7 @@ def stack_block(y0):
 
 def build():
     info, info_bottom = info_rows(stats())
-    top = info_bottom
+    top = info_bottom - 10
     stack, stack_h = stack_block(top + 30)
     h = top + 30 + stack_h + 15
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_W}" height="{h}" viewBox="0 0 {CARD_W} {h}">
