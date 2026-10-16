@@ -1,12 +1,16 @@
-"""Builds neofetch.svg: HUD-framed portrait + profile info + live GitHub stats."""
-import base64, io, json, os, subprocess, time, urllib.request
+"""Builds neofetch.svg: ASCII portrait + profile info + tech stack + live GitHub stats."""
+import json, os, subprocess, time, urllib.request
 from datetime import date
 from html import escape
-from PIL import Image, ImageOps
+from PIL import Image, ImageFilter, ImageOps
 
 USER = "itsrajarshi"
-W = 58  # width of the dotted info column
-
+CARD_W = 975
+W = 59            # characters per info row; every row is stretched to exactly this width
+CW = 8.4          # px per info character (textLength pins it, so every font renders the same width)
+IX = 450          # info column x
+PORTRAIT_RAMP = " .:-=+*#%@"
+RAMP = " .'`^\",:;Il!i><~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 
 TOK = os.environ.get("GH_TOKEN") or subprocess.check_output(["gh", "auth", "token"], text=True).strip()
 
@@ -88,77 +92,102 @@ INFO = [
     ("section", "GitHub Stats"),
 ]
 
-
-def photo_block(x=25, y=30, n=400, c="#39d0ff"):
-    """Photo with a cyan duotone, scanlines, HUD brackets and a moving scan beam."""
-    im = Image.open("assets/avatar.png").convert("RGB").resize((n, n), Image.LANCZOS)
-    duo = ImageOps.colorize(ImageOps.autocontrast(ImageOps.grayscale(im)), "#031018", "#bff6ff", mid="#0a6f8f")
-    im = Image.blend(im, duo, 0.72)  # keep some real colour so it still looks like you
-    buf = io.BytesIO(); im.save(buf, "JPEG", quality=85)
-    uri = base64.b64encode(buf.getvalue()).decode()
-    br = lambda d: f'<path d="{d}" fill="none" stroke="{c}" stroke-width="2.5"/>'
-    return f'''<defs>
-<clipPath id="c"><rect x="{x}" y="{y}" width="{n}" height="{n}" rx="10"/></clipPath>
-<pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.5" fill="#000" opacity=".28"/></pattern>
-<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c}" stop-opacity="0"/><stop offset="1" stop-color="{c}" stop-opacity=".45"/></linearGradient>
-</defs>
-<g clip-path="url(#c)">
-<image x="{x}" y="{y}" width="{n}" height="{n}" href="data:image/jpeg;base64,{uri}"/>
-<rect x="{x}" y="{y}" width="{n}" height="32" fill="#031018" opacity=".7"/><rect x="{x}" y="{y+n-30}" width="{n}" height="30" fill="#031018" opacity=".7"/>
-<rect x="{x}" y="{y}" width="{n}" height="{n}" fill="url(#sl)"/>
-<rect class="beam" x="{x}" y="{y}" width="{n}" height="46" fill="url(#beam)"/>
-</g>
-{br(f"M{x+4} {y+28}V{y+4}H{x+28}")}{br(f"M{x+n-28} {y+4}H{x+n-4}V{y+28}")}{br(f"M{x+4} {y+n-28}V{y+n-4}H{x+28}")}{br(f"M{x+n-28} {y+n-4}H{x+n-4}V{y+n-28}")}
-<text class="hud" x="{x+16}" y="{y+22}">// SUBJECT_01</text>
-<text class="hud" x="{x+n-16}" y="{y+22}" text-anchor="end">CSE &#183; 2027</text>
-<text class="hud" x="{x+16}" y="{y+n-14}"><tspan class="blink">&#9679;</tspan> ONLINE</text>
-<text class="hud" x="{x+n-16}" y="{y+n-14}" text-anchor="end">AI/ML &#183; FULL-STACK</text>'''
+STACK = {  # category: [(label, background, text colour)]
+    "Languages": [("c", "#00599C", "#fff"), ("c++", "#00599C", "#fff"), ("python", "#3670A0", "#ffdd54"), ("typescript", "#007ACC", "#fff"),
+                  ("html5", "#E34F26", "#fff"), ("css3", "#1572B6", "#fff"), ("bash script", "#121011", "#fff"),
+                  ("PowerShell", "#5391FE", "#fff"), ("Windows Terminal", "#4D4D4D", "#fff")],
+    "Frontend": [("react", "#20232a", "#61DAFB"), ("angular.js", "#E23237", "#fff")],
+    "Backend & Servers": [("node.js", "#6DA55F", "#fff"), ("apache", "#D42029", "#fff"), ("apache tomcat", "#F8DC75", "#000")],
+    "Databases": [("postgres", "#316192", "#fff"), ("mysql", "#4479A1", "#fff"), ("MongoDB", "#4ea94b", "#fff"),
+                  ("sqlite", "#07405e", "#fff"), ("firebase", "#a08021", "#ffcd34"), ("Supabase", "#3ECF8E", "#fff")],
+    "ML / Data Science": [("TensorFlow", "#FF6F00", "#fff"), ("PyTorch", "#EE4C2C", "#fff"), ("numpy", "#013243", "#fff"),
+                          ("pandas", "#150458", "#fff"), ("Matplotlib", "#ffffff", "#000"), ("Plotly", "#3F4F75", "#fff")],
+    "Cloud & DevOps": [("GoogleCloud", "#4285F4", "#fff"), ("git", "#F05033", "#fff"), ("github", "#121011", "#fff"),
+                       ("gitlab", "#181717", "#fff"), ("gitlab CI", "#181717", "#fff"), ("selenium", "#43B02A", "#fff")],
+    "Design & Tools": [("Canva", "#00C4CC", "#fff"), ("adobe", "#FF0000", "#fff"), ("Adobe Lightroom", "#31A8FF", "#fff")],
+}
 
 
-def build():
-    s = stats()
-    info = INFO + [
+def ascii_art(x=25, y=30, cw=400 / 120, lh=7.1):
+    """Text portrait from assets/portrait.png (pre-toned, masked): brighter pixel = denser character, background blank."""
+    im = Image.open("assets/portrait.png")
+    cols, rows = im.size
+    g, m = im.getchannel(0).load(), im.getchannel(1).load()
+    out = []
+    for j in range(rows):
+        row = "".join(" " if m[i, j] < 128 else PORTRAIT_RAMP[min(9, int((0.15 + 0.85 * (g[i, j] / 255)) * 10))] for i in range(cols))
+        out.append(f'<text class="art" xml:space="preserve" x="{x}" y="{y + (j + 1) * lh:.1f}" textLength="{cols * cw:.1f}" lengthAdjust="spacing">{escape(row)}</text>')
+    return "\n".join(out)
+
+
+def info_rows(s):
+    rows = INFO + [
         ("pair", "Repos", f"{s['repos']} {{Contributed: {s['contributed']}}}", "Stars", f"{s['stars']:,}"),
         ("pair", "Commits", f"{s['commits']:,}", "Followers", f"{s['followers']:,}"),
         ("loc", "Lines of Code on GitHub", f"{s['add'] - s['del']:,}", f"{s['add']:,}++", f"{s['del']:,}--"),
     ]
-    ix, iy = 450, 40
-    out = [photo_block()]
-    for i, row in enumerate(info):
-        y, kind = iy + i * 20, row[0]
+    out, iy = [], 40
+    for i, row in enumerate(rows):
+        kind, full = row[0], True
         if kind == "title":
-            t = f'<tspan class="u">{row[1]}</tspan>@<tspan class="u">{row[2]}</tspan>'
+            t, full = f'<tspan class="u">{row[1]}</tspan>@<tspan class="u">{row[2]}</tspan>', False
         elif kind == "rule":
             t = f'<tspan class="d">{"-" * W}</tspan>'
         elif kind == "section":
             t = f'- {row[1]} <tspan class="d">{"-" * (W - len(row[1]) - 3)}</tspan>'
-        elif kind == "kv":
-            dots = "." * max(2, W - len(row[1]) - len(row[2]) - 2)
+        elif kind == "kv":                         # every branch below produces exactly W characters
+            dots = "." * (W - len(row[1]) - len(row[2]) - 3)
             t = f'<tspan class="k">{escape(row[1])}</tspan>:<tspan class="d"> {dots} </tspan><tspan class="v">{escape(row[2])}</tspan>'
         elif kind == "pair":                       # "Repos: .... 8 {Contributed: 3} | Stars: .... 0"
             k1, v1, k2, v2 = row[1:]
-            d1 = "." * max(2, 35 - len(k1) - len(v1) - 2); d2 = "." * max(2, 17 - len(k2) - len(v2) - 2)
+            d1, d2 = "." * (35 - len(k1) - len(v1)), "." * (15 - len(k2) - len(v2))
             t = (f'<tspan class="k">{k1}</tspan>:<tspan class="d"> {d1} </tspan><tspan class="v">{escape(v1)}</tspan> | '
                  f'<tspan class="k">{k2}</tspan>:<tspan class="d"> {d2} </tspan><tspan class="v">{v2}</tspan>')
         elif kind == "loc":
             k, total, a, d = row[1:]
-            dots = "." * max(2, W - len(k) - len(total) - len(a) - len(d) - 9)
+            dots = "." * (W - len(k) - len(total) - len(a) - len(d) - 8)
             t = (f'<tspan class="k">{k}</tspan>:<tspan class="d"> {dots} </tspan><tspan class="v">{total}</tspan> '
                  f'(<tspan class="add">{a}</tspan>, <tspan class="del">{d}</tspan>)')
         else:
             continue
-        out.append(f'<text x="{ix}" y="{y}" xml:space="preserve">{t}</text>')
-    h = max(30 + 400, iy + len(info) * 20) + 20
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1010" height="{h}" viewBox="0 0 1010 {h}">
+        tl = f' textLength="{W * CW:.1f}" lengthAdjust="spacing"' if full else ""
+        out.append(f'<text xml:space="preserve" x="{IX}" y="{iy + i * 20}"{tl}>{t}</text>')
+    return "\n".join(out), iy + len(rows) * 20
+
+
+def stack_block(y0):
+    """Shields-style pills drawn as SVG (external badge images are blocked inside a GitHub-rendered SVG)."""
+    span = CARD_W - 50
+    out = [f'<text x="25" y="{y0}" textLength="{span}" lengthAdjust="spacing">- Tech Stack <tspan class="d">{"-" * (int(span / CW) - 13)}</tspan></text>']
+    y = y0 + 22
+    for cat, pills in STACK.items():
+        out.append(f'<text class="cat" x="25" y="{y + 14}">{escape(cat)}</text>')
+        x = 190
+        for label, bg, fg in pills:
+            w = len(label) * 7 + 18
+            out.append(f'<rect x="{x}" y="{y}" width="{w}" height="20" rx="4" fill="{bg}" stroke="#30363d"/>'
+                       f'<text class="pill" x="{x + w / 2}" y="{y + 14}" text-anchor="middle" style="fill:{fg}">{escape(label)}</text>')
+            x += w + 6
+        y += 28
+    return "\n".join(out), y - y0 + 10
+
+
+def build():
+    info, info_bottom = info_rows(stats())
+    top = max(30 + 80 * 7.1, info_bottom)
+    stack, stack_h = stack_block(top + 30)
+    h = top + 30 + stack_h + 15
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_W}" height="{h}" viewBox="0 0 {CARD_W} {h}">
 <style>
-text{{font-family:Consolas,"Courier New",monospace;font-size:15px;fill:#c9d1d9}}
+text{{font-family:ConsolasFallback,Consolas,"DejaVu Sans Mono","Courier New",monospace;font-size:15px;fill:#c9d1d9;white-space:pre}}
+.art{{font-size:5.6px;fill:#c9d1d9}}
 .k,.u{{fill:#ffa657;font-weight:bold}} .v{{fill:#a5d6ff}} .add{{fill:#3fb950}} .del{{fill:#f85149}} .d{{fill:#484f58}}
-.hud{{font-size:11px;fill:#39d0ff;letter-spacing:1px}}
-.blink{{animation:b 1.4s infinite}} .beam{{animation:s 3.2s linear infinite}}
-@keyframes b{{50%{{opacity:.2}}}} @keyframes s{{from{{transform:translateY(-46px)}}to{{transform:translateY(400px)}}}}
+.cat{{font-size:12px;fill:#8b949e}} .pill{{font-size:12px;font-weight:bold}}
 </style>
-<rect width="1010" height="{h}" rx="12" fill="#0d1117" stroke="#30363d"/>
-{chr(10).join(out)}
+<rect width="{CARD_W}" height="{h}" rx="15" fill="#161b22"/>
+{ascii_art()}
+{info}
+{stack}
 </svg>
 '''
 
